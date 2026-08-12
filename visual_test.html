@@ -1,0 +1,1093 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Масштабный визуальный тест смешивания красок</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #f0f0f0; color: #333; margin: 0; padding: 20px; }
+    h1, h2, h3 { text-align: center; }
+    .profile-section { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .test-group { margin-bottom: 30px; }
+    .test-group h4 { border-bottom: 2px solid #eee; padding-bottom: 5px; }
+    .swatch-container { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
+    .swatch-card { display: flex; flex-direction: column; align-items: center; width: 120px; text-align: center; font-size: 12px; }
+    .swatch { width: 80px; height: 80px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.2); box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 8px; }
+    .swatch.rect { border-radius: 8px; width: 100px; }
+    .desc { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Лаборатория визуального смешивания красок Melura</h1>
+  <p style="text-align:center;">Этот файл сгенерирован автоматически для оценки физической корректности движка.</p>
+<div class="profile-section">
+    <h2>Гуашь (км: 0.82, прозрачность: 0.05, грязь: 0.12)</h2><div class="test-group"><h4>1. Вторичные цвета: Градиент Желтый -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,21)"></div>
+      <strong>10 Ж : 0 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(129,156,23)"></div>
+      <strong>8 Ж : 2 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[129,156,23]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(35,127,35)"></div>
+      <strong>5 Ж : 5 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[35,127,35]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(23,79,156)"></div>
+      <strong>2 Ж : 8 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[23,79,156]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,255)"></div>
+      <strong>0 Ж : 10 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>2. Вторичные цвета: Градиент Красный -> Желтый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(146,31,4)"></div>
+      <strong>8 К : 2 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[146,31,4]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(118,72,11)"></div>
+      <strong>5 К : 5 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[118,72,11]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(146,130,4)"></div>
+      <strong>2 К : 8 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[146,130,4]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,21)"></div>
+      <strong>0 К : 10 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,21]</span>
+    </div>
+  </div></div><div class="test-group"><h4>3. Вторичные цвета: Градиент Красный -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(122,3,39)"></div>
+      <strong>8 К : 2 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[122,3,39]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(82,7,82)"></div>
+      <strong>5 К : 5 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[82,7,82]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(39,3,122)"></div>
+      <strong>2 К : 8 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[39,3,122]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,255)"></div>
+      <strong>0 К : 10 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>4. Разбеливание (Тинт): Красный + Белый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(156,97,97)"></div>
+      <strong>7 К : 3 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[156,97,97]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(153,120,120)"></div>
+      <strong>5 К : 5 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[153,120,120]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(153,145,145)"></div>
+      <strong>2 К : 8 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[153,145,145]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(156,152,152)"></div>
+      <strong>1 К : 9 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[156,152,152]</span>
+    </div>
+  </div></div><div class="test-group"><h4>5. Затенение (Шейд): Красный + Черный</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(157,1,1)"></div>
+      <strong>9 К : 1 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[157,1,1]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(126,13,13)"></div>
+      <strong>7 К : 3 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[126,13,13]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(100,22,22)"></div>
+      <strong>5 К : 5 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[100,22,22]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(60,29,29)"></div>
+      <strong>2 К : 8 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[60,29,29]</span>
+    </div>
+  </div></div><div class="test-group"><h4>6. Тест на грязь (Красный + Желтый + Синий)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(118,72,11)"></div>
+      <strong>5К : 5Ж : 0С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[118,72,11]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(56,39,22)"></div>
+      <strong>4К : 4Ж : 2С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[56,39,22]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(29,25,43)"></div>
+      <strong>3К : 3Ж : 4С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[29,25,43]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(47,43,26)"></div>
+      <strong>3К : 4Ж : 3С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[47,43,26]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(35,31,31)"></div>
+      <strong>5К : 5Ж : 5С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[35,31,31]</span>
+    </div>
+  </div></div><div class="test-group"><h4>7. Подложка (1 часть Синего на разных поверхностях)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Белая бумага</strong>
+      <span class="desc">Blue on White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Крафт (Желтый)</strong>
+      <span class="desc">Blue on Craft</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Темный холст</strong>
+      <span class="desc">Blue on Dark</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>8. Накопление плотности (Черный цвет)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(33,33,33)"></div>
+      <strong>1 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[33,33,33]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(22,22,22)"></div>
+      <strong>2 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[22,22,22]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>5 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>10 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>20 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  </div></div></div><div class="profile-section">
+    <h2>Акварель (км: 1, прозрачность: 0.65, грязь: 0.05)</h2><div class="test-group"><h4>1. Вторичные цвета: Градиент Желтый -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,88)"></div>
+      <strong>10 Ж : 0 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(179,212,70)"></div>
+      <strong>8 Ж : 2 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[179,212,70]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(75,183,75)"></div>
+      <strong>5 Ж : 5 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[75,183,75]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(70,135,212)"></div>
+      <strong>2 Ж : 8 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[70,135,212]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(88,88,255)"></div>
+      <strong>0 Ж : 10 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[88,88,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>2. Вторичные цвета: Градиент Красный -> Желтый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,88,88)"></div>
+      <strong>10 К : 0 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,88,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(196,79,65)"></div>
+      <strong>8 К : 2 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[196,79,65]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(163,118,72)"></div>
+      <strong>5 К : 5 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[163,118,72]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(196,181,65)"></div>
+      <strong>2 К : 8 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[196,181,65]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,88)"></div>
+      <strong>0 К : 10 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,88]</span>
+    </div>
+  </div></div><div class="test-group"><h4>3. Вторичные цвета: Градиент Красный -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,88,88)"></div>
+      <strong>10 К : 0 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,88,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(172,63,88)"></div>
+      <strong>8 К : 2 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[172,63,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(130,68,130)"></div>
+      <strong>5 К : 5 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[130,68,130]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(88,63,172)"></div>
+      <strong>2 К : 8 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[88,63,172]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(88,88,255)"></div>
+      <strong>0 К : 10 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[88,88,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>4. Разбеливание (Тинт): Красный + Белый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,88,88)"></div>
+      <strong>10 К : 0 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,88,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(208,153,153)"></div>
+      <strong>7 К : 3 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[208,153,153]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(204,175,175)"></div>
+      <strong>5 К : 5 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[204,175,175]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(205,198,198)"></div>
+      <strong>2 К : 8 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[205,198,198]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(207,205,205)"></div>
+      <strong>1 К : 9 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[207,205,205]</span>
+    </div>
+  </div></div><div class="test-group"><h4>5. Затенение (Шейд): Красный + Черный</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,88,88)"></div>
+      <strong>10 К : 0 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,88,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(211,60,60)"></div>
+      <strong>9 К : 1 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[211,60,60]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(178,75,75)"></div>
+      <strong>7 К : 3 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[178,75,75]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(151,86,86)"></div>
+      <strong>5 К : 5 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[151,86,86]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(113,94,94)"></div>
+      <strong>2 К : 8 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[113,94,94]</span>
+    </div>
+  </div></div><div class="test-group"><h4>6. Тест на грязь (Красный + Желтый + Синий)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(163,118,72)"></div>
+      <strong>5К : 5Ж : 0С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[163,118,72]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(111,91,71)"></div>
+      <strong>4К : 4Ж : 2С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[111,91,71]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(73,73,98)"></div>
+      <strong>3К : 3Ж : 4С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[73,73,98]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(99,99,74)"></div>
+      <strong>3К : 4Ж : 3С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[99,99,74]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(81,81,81)"></div>
+      <strong>5К : 5Ж : 5С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[81,81,81]</span>
+    </div>
+  </div></div><div class="test-group"><h4>7. Подложка (1 часть Синего на разных поверхностях)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(88,88,255)"></div>
+      <strong>Белая бумага</strong>
+      <span class="desc">Blue on White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[88,88,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(73,64,219)"></div>
+      <strong>Крафт (Желтый)</strong>
+      <span class="desc">Blue on Craft</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[73,64,219]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(32,32,199)"></div>
+      <strong>Темный холст</strong>
+      <span class="desc">Blue on Dark</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[32,32,199]</span>
+    </div>
+  </div></div><div class="test-group"><h4>8. Накопление плотности (Черный цвет)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(175,175,175)"></div>
+      <strong>1 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[175,175,175]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(122,122,122)"></div>
+      <strong>2 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[122,122,122]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(52,52,52)"></div>
+      <strong>5 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[52,52,52]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(28,28,28)"></div>
+      <strong>10 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[28,28,28]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,25)"></div>
+      <strong>20 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,25]</span>
+    </div>
+  </div></div></div><div class="profile-section">
+    <h2>Акрил (км: 1, прозрачность: 0.08, грязь: 0.08)</h2><div class="test-group"><h4>1. Вторичные цвета: Градиент Желтый -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,25)"></div>
+      <strong>10 Ж : 0 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(147,188,13)"></div>
+      <strong>8 Ж : 2 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[147,188,13]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(19,152,19)"></div>
+      <strong>5 Ж : 5 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[19,152,19]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(13,93,188)"></div>
+      <strong>2 Ж : 8 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[13,93,188]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,255)"></div>
+      <strong>0 Ж : 10 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>2. Вторичные цвета: Градиент Красный -> Желтый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,25,25)"></div>
+      <strong>10 К : 0 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(169,24,6)"></div>
+      <strong>8 К : 2 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[169,24,6]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(128,72,16)"></div>
+      <strong>5 К : 5 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[128,72,16]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(169,150,6)"></div>
+      <strong>2 К : 8 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[169,150,6]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,25)"></div>
+      <strong>0 К : 10 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,25]</span>
+    </div>
+  </div></div><div class="test-group"><h4>3. Вторичные цвета: Градиент Красный -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,25,25)"></div>
+      <strong>10 К : 0 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(138,5,36)"></div>
+      <strong>8 К : 2 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[138,5,36]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(87,11,87)"></div>
+      <strong>5 К : 5 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[87,11,87]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(36,5,138)"></div>
+      <strong>2 К : 8 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[36,5,138]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,255)"></div>
+      <strong>0 К : 10 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>4. Разбеливание (Тинт): Красный + Белый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,25,25)"></div>
+      <strong>10 К : 0 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(183,115,115)"></div>
+      <strong>7 К : 3 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[183,115,115]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(179,142,142)"></div>
+      <strong>5 К : 5 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[179,142,142]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(179,171,171)"></div>
+      <strong>2 К : 8 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[179,171,171]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(182,179,179)"></div>
+      <strong>1 К : 9 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[182,179,179]</span>
+    </div>
+  </div></div><div class="test-group"><h4>5. Затенение (Шейд): Красный + Черный</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,25,25)"></div>
+      <strong>10 К : 0 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(186,1,1)"></div>
+      <strong>9 К : 1 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[186,1,1]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(146,19,19)"></div>
+      <strong>7 К : 3 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[146,19,19]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(113,33,33)"></div>
+      <strong>5 К : 5 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[113,33,33]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(66,42,42)"></div>
+      <strong>2 К : 8 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[66,42,42]</span>
+    </div>
+  </div></div><div class="test-group"><h4>6. Тест на грязь (Красный + Желтый + Синий)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(128,72,16)"></div>
+      <strong>5К : 5Ж : 0С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[128,72,16]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(66,44,23)"></div>
+      <strong>4К : 4Ж : 2С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[66,44,23]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,51)"></div>
+      <strong>3К : 3Ж : 4С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,51]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(53,53,26)"></div>
+      <strong>3К : 4Ж : 3С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[53,53,26]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(34,34,34)"></div>
+      <strong>5К : 5Ж : 5С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[34,34,34]</span>
+    </div>
+  </div></div><div class="test-group"><h4>7. Подложка (1 часть Синего на разных поверхностях)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(25,25,255)"></div>
+      <strong>Белая бумага</strong>
+      <span class="desc">Blue on White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(25,25,255)"></div>
+      <strong>Крафт (Желтый)</strong>
+      <span class="desc">Blue on Craft</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(25,25,255)"></div>
+      <strong>Темный холст</strong>
+      <span class="desc">Blue on Dark</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>8. Накопление плотности (Черный цвет)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(43,43,43)"></div>
+      <strong>1 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[43,43,43]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(26,26,26)"></div>
+      <strong>2 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[26,26,26]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,25)"></div>
+      <strong>5 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,25)"></div>
+      <strong>10 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(25,25,25)"></div>
+      <strong>20 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[25,25,25]</span>
+    </div>
+  </div></div></div><div class="profile-section">
+    <h2>Масло (км: 0.85, прозрачность: 0.03, грязь: 0.1)</h2><div class="test-group"><h4>1. Вторичные цвета: Градиент Желтый -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,21)"></div>
+      <strong>10 Ж : 0 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(140,172,23)"></div>
+      <strong>8 Ж : 2 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[140,172,23]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(34,139,34)"></div>
+      <strong>5 Ж : 5 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[34,139,34]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(23,86,172)"></div>
+      <strong>2 Ж : 8 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[23,86,172]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,255)"></div>
+      <strong>0 Ж : 10 С</strong>
+      <span class="desc">Yel+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>2. Вторичные цвета: Градиент Красный -> Желтый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(159,32,5)"></div>
+      <strong>8 К : 2 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[159,32,5]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(127,76,13)"></div>
+      <strong>5 К : 5 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[127,76,13]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(159,141,5)"></div>
+      <strong>2 К : 8 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[159,141,5]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,255,21)"></div>
+      <strong>0 К : 10 Ж</strong>
+      <span class="desc">Red+Yel</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,255,21]</span>
+    </div>
+  </div></div><div class="test-group"><h4>3. Вторичные цвета: Градиент Красный -> Синий</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(132,4,41)"></div>
+      <strong>8 К : 2 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[132,4,41]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(88,8,88)"></div>
+      <strong>5 К : 5 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[88,8,88]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(41,4,132)"></div>
+      <strong>2 К : 8 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[41,4,132]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,255)"></div>
+      <strong>0 К : 10 С</strong>
+      <span class="desc">Red+Blue</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>4. Разбеливание (Тинт): Красный + Белый</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(170,106,106)"></div>
+      <strong>7 К : 3 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[170,106,106]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(167,131,131)"></div>
+      <strong>5 К : 5 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[167,131,131]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(167,158,158)"></div>
+      <strong>2 К : 8 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[167,158,158]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(169,166,166)"></div>
+      <strong>1 К : 9 Б</strong>
+      <span class="desc">Red+White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[169,166,166]</span>
+    </div>
+  </div></div><div class="test-group"><h4>5. Затенение (Шейд): Красный + Черный</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(255,21,21)"></div>
+      <strong>10 К : 0 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[255,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(172,1,1)"></div>
+      <strong>9 К : 1 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[172,1,1]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(137,15,15)"></div>
+      <strong>7 К : 3 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[137,15,15]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(109,26,26)"></div>
+      <strong>5 К : 5 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[109,26,26]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(65,33,33)"></div>
+      <strong>2 К : 8 Ч</strong>
+      <span class="desc">Red+Black</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[65,33,33]</span>
+    </div>
+  </div></div><div class="test-group"><h4>6. Тест на грязь (Красный + Желтый + Синий)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(127,76,13)"></div>
+      <strong>5К : 5Ж : 0С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[127,76,13]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(65,45,25)"></div>
+      <strong>4К : 4Ж : 2С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[65,45,25]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(33,29,49)"></div>
+      <strong>3К : 3Ж : 4С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[33,29,49]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(54,51,30)"></div>
+      <strong>3К : 4Ж : 3С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[54,51,30]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(40,36,36)"></div>
+      <strong>5К : 5Ж : 5С</strong>
+      <span class="desc">Mud Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[40,36,36]</span>
+    </div>
+  </div></div><div class="test-group"><h4>7. Подложка (1 часть Синего на разных поверхностях)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Белая бумага</strong>
+      <span class="desc">Blue on White</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Крафт (Желтый)</strong>
+      <span class="desc">Blue on Craft</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch rect" style="background-color: rgb(21,21,255)"></div>
+      <strong>Темный холст</strong>
+      <span class="desc">Blue on Dark</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,255]</span>
+    </div>
+  </div></div><div class="test-group"><h4>8. Накопление плотности (Черный цвет)</h4><div class="swatch-container">
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(28,28,28)"></div>
+      <strong>1 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[28,28,28]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>2 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>5 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>10 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  
+    <div class="swatch-card">
+      <div class="swatch " style="background-color: rgb(21,21,21)"></div>
+      <strong>20 слоев</strong>
+      <span class="desc">Opacity Test</span>
+      <span class="desc" style="font-family:monospace; margin-top:4px;">[21,21,21]</span>
+    </div>
+  </div></div></div>
+</body>
+</html>

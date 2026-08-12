@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // СИНХРОННАЯ ОЧИСТКА ХРАНИЛИЩА (ДО ЗАГРУЗКИ JS)
+      (function() {
+        if (window.location.search.indexOf('clear_cache') !== -1) {
+          try {
+            localStorage.clear();
+            sessionStorage.clear();
+            console.log('[System] Настройки сброшены.');
+          } catch (e) {}
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Melura — инструмент для создания картин по номерам и подбора рецептов." />
+    
+    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+    
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Melura" />
+    
+    <link rel="icon" type="image/png" href="/Melura/favicon.png" />
+    <link rel="apple-touch-icon" href="/Melura/apple-touch-icon.png" />
+    <link rel="manifest" href="/Melura/manifest.webmanifest" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Melura</title>
+    <script type="module" crossorigin src="/Melura/assets/ByTKQb4L.js"></script>
+    <link rel="modulepreload" crossorigin href="/Melura/assets/NiKv-plA.js">
+    <link rel="modulepreload" crossorigin href="/Melura/assets/Ct4yriVD.js">
+    <link rel="modulepreload" crossorigin href="/Melura/assets/Qsi7Oakq.js">
+    <link rel="modulepreload" crossorigin href="/Melura/assets/CzAtys5V.js">
+    <link rel="modulepreload" crossorigin href="/Melura/assets/B24X-1n_.js">
+    <link rel="stylesheet" crossorigin href="/Melura/assets/peP3Zjtr.css">
+  <link rel="manifest" href="/Melura/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
